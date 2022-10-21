@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+body{
+
+
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titles{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.text{
+    font-size: 20px;
+    
+}
+.menu{
+    float: right;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 10px;
+}
+.hello{
+    text-align: center;
+    font-size: 45px;
+}
+.header{
+    background-color: black;
+    padding: 10px ;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.logo {
+}
+.logo_img {
+}
+.menu_item {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.main_section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #df8680,#ffe3ca);
+}
+.main_content {
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%,-50%);
+}
+.main_title {
+    text-align: center;
+    color: aliceblue;
+    font-size: 97px;
+    text-shadow: 8px 8px 1px #e06161;
+}
+.main_btn {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 0px #e06161;
+    display: block;
+    width: 300px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 10px auto;
+    
+}
+.main_background {
+}
+.about {
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.text {
+    font-size: 20px;
+    line-height: 30px;
+}
+.doing {
+    
+    background-image: linear-gradient(7deg, #db7e7e 18%,#ffc997 70%,#ffffff 70%);
+}
+.doing_left {
+    width: 49%;
+    display: inline-block;
+    
+}
+.doing_text { 
+    box-shadow: 5px 5px 1px #e06161;
+    border-radius: 20px;
+    padding: 40px;
+
+    background-color: #ffffff;
+}
+.doing_right {
+    width: 49%;
+    display: inline-block;
+}
+.doing_img {
+    width: 100%;
+}
+.our {
+    background-image: linear-gradient(346deg, #fff 45%,#db7f7e 45%);
+    text-align: center;
+}
+.our_title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.our_card {
+    border: #ffc997 2px solid;
+    border-radius: 20px;
+    width: 29%;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    padding: 10px 10px 100px 10px;
+}
+.our_card img{
+    width: 80%;
+}
+.our_hr{
+    
+    height: 3px;
+    width: 75%;
+    margin: 10px  auto;
+    display: block;
+    background-color: #e06161;
+}
+.why {
+    position: relative;
+}
+.why_title {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.why_card {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+.why_card1 {
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #e06161;
+    border: 5px solid #ffc997;
+    
+    
+
+}
+.why_ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+.why_card2 {
+   
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #e06161;
+    border: 5px solid #ffc997;
+    position: relative;
+    right: -200px;
+    
+    
+}
+.why_card3 {
+    
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px #e06161;
+    border: 5px solid #ffc997;
+
+    
+}
+.why_title_ul{
+    font-size: 20px;
+    
+}
+.works {
+}
+.works_title {
+}
+.works_card {
+    width: 49%;
+    height: 49vh;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #db7f7e;
+    border-radius: 50px;
+    transition: 1s;
+}
+.works_card:hover{
+    transform: scale(1.1);
+    
+}
+.works_card1 {
+    background-image: url(img/portfolio/site1.png);
+
+}
+.works_card2 {
+    background-image: url(img/portfolio/site2.png);
+}
+.works_card3 {
+    background-image: url(img/portfolio/site3.png);
+}
+.works_card4 {
+    background-image: url(img/portfolio/site4.png);
+}
+.typing {
+    background-image: linear-gradient(180deg, #df8680,#ffc897);
+    
+}
+.typing_title {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+.typing_button {
+    border-radius: 30px;
+    box-shadow: 8px 8px 1px #e06161;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    height: 10vh;
+    width: 20%;
+    font-size: 25px;
+
+    
+    color: #25211c;
+}
+.main_background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.circle1 {
+    position: absolute;
+    width: 23%;
+    top: -100px;
+    left: -50px;
+}
+.circle2 {
+    position: absolute;
+    width: 23%;
+    top: -100px;
+    right: -50px;
+}
+.circle3 {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    width: 36%;
+}
+.circle_bordered {
+    position: absolute;
+    bottom: -70px;
+    left: 200px;
+    width: 13%;
+}
+.circle_dashed_border {
+    position: absolute;
+    bottom: -100px;
+    right: -85px;
+    width: 26%;
+}
+.triangle {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 12%;
+}
+.octagon {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 10%;
+}
+.why_bg {
+    position: absolute;
+    left: 0;
+    
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.advantages_bg_1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 47%;
+}
+.adventages_bg_2 {
+    position:sticky;
+    left: 0;
+    top: 0;
+    width: 23%;
+}
+@media(max-width:1020px){
+    .main_title {
+        
+       
+        font-size: 50px;
+       
+    }
+}
+@media(max-width:520px){
+    .main_title {
+        
+       
+        font-size: 20px;
+       
+    }
+}
+@media(max-width:992px){
+    .doing_left{
+        width: 90%;
+
+    }
+    .doing_right{
+        width: 90%;
+    }
+}
+@media(max-width:519px){
+    .doing_left{
+        width: 95%;
+
+    }
+    .doing_right{
+        width: 95%;
+    }
+}
+@media(max-width:340px){
+    .doing_left{
+        width: 98%;
+
+    }
+    .doing_right{
+        width: 98%;
+    }
+}
+@media(max-width:545px){
+    .our_card {
+        width: 15%;
+        
+    }
+}
+@media(max-width:660px){
+    .typing {
+        width: 90%;
+        
+    }
+}
+@media(max-width:320px){
+    .typing {
+        width: 99%;
+        
+    }
+}
